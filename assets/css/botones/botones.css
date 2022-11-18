@@ -1,0 +1,60 @@
+.btn {
+  margin-top: 5rem;
+  background: #004aad;
+  color: #ffffff;
+  font-size: 1rem;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 100px;
+  width: 200px;
+  margin-left: 60%;
+}
+
+/*** ESTILOS BOTÓN GROW SKEW REVERSE ***/
+.ov-btn-grow-skew-reverse {
+  margin-top: 10rem;
+  margin-left: 60%;
+  background: #ffffff; /* color de fondo */
+  color: #004aad; /* color de fuente */
+  border: 2px solid #004aad; /* tamaño y color de borde */
+  padding: 16px 20px;
+  border-radius: 3px; /* redondear bordes */
+  position: relative;
+  width: 200px;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+.ov-btn-grow-skew-reverse:hover {
+  color: #ffffff; /* color de fuente hover */
+}
+.ov-btn-grow-skew-reverse::after {
+  content: "";
+  background: #004aad; /* color de fondo hover */
+  color: #ffffff;
+  position: absolute;
+  padding: 16px 20px;
+  display: block;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(45deg) scale(0, 1);
+  transition: all 0.3s ease;
+}
+.ov-btn-grow-skew-reverse:hover::after {
+  transition: all 0.3s ease-out;
+  transform: skewX(45deg) scale(1, 1);
+  color: #ffffff;
+}
+
+@media screen and (max-width:768px) {
+  .ov-btn-grow-skew-reverse {
+    text-align: center;
+    margin-top: 2rem;
+    margin-right: 4rem;
+    font-size: 18px;
+    width: 8rem;
+  }
+}

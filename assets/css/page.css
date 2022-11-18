@@ -1,0 +1,84 @@
+.ugb-59fdd8d .ugb-header__title {
+    font-size: 44px !important;
+    color: #ffffff;
+    text-align: left !important
+}
+
+.ugb-59fdd8d .ugb-header__subtitle {
+    color: #ffffff
+}
+
+.ugb-59fdd8d .ugb-header__buttons {
+    justify-content: flex-start !important
+}
+
+.ugb-59fdd8d .ugb-button1 .ugb-button--inner {
+    font-family: "Lato", Sans-serif !important
+}
+
+.ugb-59fdd8d .ugb-button1 {
+    background-color: #ff6900;
+    padding-top: 13px;
+    padding-right: 32px;
+    padding-bottom: 13px;
+    padding-left: 32px;
+    opacity: 1;
+    border-radius: 100px !important
+}
+
+.ugb-59fdd8d .ugb-button1 .ugb-button--inner,
+.ugb-59fdd8d .ugb-button1 svg:not(.ugb-custom-icon) {
+    color: #ffffff !important
+}
+
+.ugb-59fdd8d .ugb-button1:hover .ugb-button--inner,
+.ugb-59fdd8d .ugb-button1:hover svg:not(.ugb-custom-icon) {
+    color: #ffffff !important
+}
+
+.ugb-59fdd8d .ugb-button1:hover {
+    background-color: #0693e3;
+    opacity: 1
+}
+
+.ugb-59fdd8d .ugb-button1:before {
+    border-radius: 100px !important
+}
+
+.ugb-59fdd8d .ugb-button-container {
+    margin-bottom: 74px !important
+}
+
+.ugb-59fdd8d .ugb-inner-block {
+    text-align: left
+}
+
+.ugb-59fdd8d.ugb-header {
+    background-color: #0693e3;
+    background-image: url(https://ciider.org/wp-content/uploads/2022/09/Blanco-Gris-Limpio-Cuadricula-Hermanas-Collage-de-Video-1.mp4)
+}
+
+.ugb-59fdd8d.ugb-header>.ugb-inner-block {
+    max-width: 2500% !important
+}
+
+.ugb-59fdd8d.ugb-header:before {
+    background-image: linear-gradient(90deg, #0693e3 0%, rgba(6, 147, 227, 0) 100%);
+    opacity: 0.5
+}
+
+.ugb-59fdd8d .ugb-bottom-separator {
+    z-index: 6
+}
+
+@media screen and (min-width:768px) {
+    .ugb-59fdd8d .ugb-top-separator .ugb-separator-wrapper {
+        height: 30px
+    }
+}
+
+@media screen and (max-width:768px) {
+    .ugb-59fdd8d.ugb-header {
+        min-height: 30vh
+    }
+}

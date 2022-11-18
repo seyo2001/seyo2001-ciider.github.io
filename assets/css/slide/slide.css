@@ -1,0 +1,134 @@
+.equipo {
+    position: relative;
+    display: flex;
+    margin-top: 2rem;
+}
+
+.equipo__mensaje {
+    width: 50%;   
+}
+
+.equipo__titulo {
+    text-align: center;
+    font-weight: 700;
+    color: #004AAD;
+}
+
+.equipo__mensaje__parrafo {
+    margin: auto;
+    padding: 3rem 3rem;
+    text-align: justify;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.firma{
+    font-family: 'Caveat', cursive;
+    text-align: right;
+    font-style: italic;
+    font-size: 3.25rem;
+    margin-right: 3rem;
+    color: #004AAD;
+}
+
+.rol{
+    font-style: italic;
+    text-align: right;
+    margin-right: 3rem;
+    margin-top: -2rem;
+}
+
+.slider {
+	width: 50%;
+	overflow: hidden;
+    text-align: right;
+}
+
+.slider ul {
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+    width: 100%;
+    list-style: none;
+}
+
+.slider img {
+    width: 100%;
+}
+
+@keyframes cambio {
+    0% {margin-left: 0;}
+
+    20% {margin-left: 0;}
+
+    25% {margin-left: -100%;}
+
+    45% {margin-left: -100%;}
+
+    50% {margin-left: -200%;}
+
+    70% {margin-left: -200%;}
+
+    75% {margin-left: -300%;}
+
+    100% {margin-left: -300%;}
+}
+
+@media screen and (max-width: 768px) {
+
+    .equipo{
+        margin-top: 48em;
+        display: flex;
+        position: relative;
+        text-align: center;
+    }
+
+    .equipo__titulo{
+        position: relative;
+        text-align: center;
+        font-style: italic;
+        font-size: 2em;
+        height: 1em;
+    }
+    .slider{
+        position: absolute;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        width: auto; 
+        margin-top: 5em;           
+    }
+
+    .equipo__mensaje{
+      
+        position: relative;
+        width: auto;
+        text-align: justify;
+        padding: 0.25rem 2rem;
+    
+    }
+    .equipo__mensaje__parrafo{
+
+        margin-top: 15em;
+        padding: 0;
+    }
+
+}
+
+@media screen AND (max-width:480px) {
+
+    .equipo{
+        margin-top: 26em;
+    }
+
+    .equipo__mensaje__parrafo{
+        padding: 0;
+        margin: 18em 0 0 0;
+        text-align: justify;
+        font-style: italic;
+        font-size: 1em;
+    }
+}

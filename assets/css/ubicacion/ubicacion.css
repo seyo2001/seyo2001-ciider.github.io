@@ -1,0 +1,158 @@
+#ubicacion{
+  margin-top: 45em;
+}
+
+.rodapie__titulo {
+  color: #004aad;
+  font-weight: 700;
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+}
+
+.linea {
+  background-color: #38b6ff;
+  height: 5px;
+  width: 100%;
+  display: block;
+}
+
+
+.ubicacion__ciider {
+  display: flex;
+  position: relative;
+}
+
+
+
+.rodapie {
+  position: absolute;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rodapie__parrafo {
+  position: absolute;
+  width: auto;
+  color: #004aad;
+  text-align: justify;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 700;
+  margin-top: 8rem;
+  margin-left: 15rem;
+}
+
+.rodapie__logos {
+  display: flex;
+  position: absolute;
+  width: auto;
+  margin-top: 20em;
+  margin-left: 18em;
+}
+
+.rodapie__logos__Instagram {
+  margin-left: 3rem;
+}
+
+.rodapie__logos__linkedin {
+  margin-left: 3rem;
+}
+
+.rodapie__logos__twitter {
+  margin-left: 3rem;
+}
+
+.rodapie__ubicacion {
+
+  position: absolute;
+  width: auto;
+  margin: 0;
+  margin-top: 4em;
+  margin-left: 55%;
+}
+
+@media screen AND (max-width:768px) {
+
+  #ubicacion{
+    margin-top: 65em;
+  }
+
+ .rodapie__parrafo{
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    margin-left: 2em;
+  }
+
+  .rodapie__logos{
+    margin: 0;
+    padding: 0;
+    margin-top: 15em;
+    margin-left: 2em;
+  }
+
+  .rodapie__ubicacion{
+    margin: 0;
+    padding: 0;
+    margin-left: 50%;
+    width: 350px;
+    height:350px;
+  }
+
+iframe{
+    margin: 0;
+    padding: 0;
+    width:350px;
+    height:350px;
+  }
+  
+}
+
+
+@media screen AND (max-width:480px) {
+
+  body{
+    margin-left:2em ;
+  }
+
+#ubicacion{
+  margin-top: 69em;
+}
+
+  .rodapie__parrafo{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    margin-top: 3em;
+    margin-left: 3em;
+    font-size: 0.7rem;
+  }
+
+  .rodapie__logos{
+    margin: 0;
+    padding: 0;
+    margin-top: 10em;
+    margin-left: 2em;
+    width: 100%;
+  }
+
+  .rodapie__ubicacion{
+    margin: 0;
+    padding: 0;
+    margin-left: 50%;
+    width: 350px;
+    height:350px;
+  }
+
+iframe{
+    margin: 0;
+    padding: 0;
+    margin-top: 2em;
+    margin-left: 3em;
+    width:200px;
+    height:200px;
+  }
+  
+}

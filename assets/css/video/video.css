@@ -1,0 +1,31 @@
+.video-responsive {
+    position: relative;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+  }
+
+  
+/* video en forma responsive */
+@media (min-aspect-ratio: 16/9) {
+    .video-responsive {
+      width: 100%;
+      height: auto;
+    }
+  
+    @media (max-aspect-ratio: 16/9) {
+      .video-responsive {
+        width: auto;
+        height: 100%;
+      }
+      
+    }
+  
+    @media (max-width: 767px) {
+      .video-responsive {
+        display: none;
+  
+      }
+
+    }
+}

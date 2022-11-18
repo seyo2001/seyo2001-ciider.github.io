@@ -1,0 +1,145 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ceap__galeria {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 133px);
+    grid-auto-rows: 200px;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.ceap__galeria__item {
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    grid-column: span 2;
+    /* 266px +17px = 283px*/
+    height: 283px;
+    transition: 0.5s filter;
+}
+
+.ceap__galeria__item:first-of-type {
+    grid-column: 2 / span 2;
+}
+
+
+.ceap__galeria__item:hover {
+    filter: brightness(0.3);
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.ceap__titulo {
+    /* background: pink; */
+    text-align: center;
+    font-size: 2em !important;
+    font-weight: 700;
+    font-style: italic;
+    color: #004AAD;
+}
+
+
+.ceap {
+    background: lightblue;
+    text-align: justify;
+    font-size: 1.5em;
+    width: 95%;
+    margin-top: 1em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+@media screen and (min-width: 270px) and (max-width:504px) {
+
+    .ceap__galeria {
+        grid-auto-rows: 283px;
+    }
+
+    .ceap__galeria__item:first-of-type {
+        grid-column: 1 / span 2;
+    }
+
+}
+
+@media screen and (min-width: 505px) and (max-width:685px) {
+
+    .ceap__titulo {
+        width: %;
+font-size: 1rem;
+    }
+
+    .ceap__galeria__item:nth-of-type(odd) {
+        grid-column: 2 / span 2;
+    }
+
+}
+
+@media screen and (min-width: 686px) and (max-width:856px) {
+
+    .ceap__galeria__item:nth-of-type(3n +1) {
+
+        grid-column: 2 /span 2;
+
+
+    }
+}
+
+@media screen and (min-width: 858px) and (max-width:1032px) {
+
+    .ceap__galeria__item:nth-of-type(4n +1) {
+
+        grid-column: 2 /span 2;
+
+
+    }
+}
+
+@media screen and (min-width: 858px) and (max-width:1032px) {
+
+    .ceap__galeria__item:nth-of-type(5n +1) {
+
+        grid-column: 2 /span 2;
+
+
+    }
+}
+
+@media screen and (min-width: 1033px) and (max-width:1215px) {
+
+    .ceap__galeria__item:nth-of-type(6n +1) {
+
+        grid-column: 2 /span 2;
+    }
+}
+
+@media screen and (min-width: 1216px) and (max-width:1391px) {
+
+    .ceap__galeria__item:nth-of-type(7n +1) {
+        grid-column: 2 /span 2;
+
+
+    }
+}
+
+@media screen and (min-width: 1392px) {
+
+    .ceap__galeria__item:nth-of-type(7n +1) {
+
+        grid-column: 2 /span 2; 
+
+
+    }
+}

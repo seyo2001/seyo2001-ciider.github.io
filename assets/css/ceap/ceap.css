@@ -1,0 +1,49 @@
+.ceap__titulo {
+    text-align: center;
+    font-size: 3em !important;
+    font-weight: 700;
+    font-style: italic;
+    color: #004AAD;
+}
+
+.ceap__contenido {
+    display: flex;
+    position: relative;
+    width: auto;
+    margin-top: 2em;
+}
+
+
+.ceap__galeria {
+    position: absolute;
+    width: auto;
+    margin-left: 7em;
+    text-align: center;
+
+}
+
+img {
+    width: 55%;
+    border: solid 4px;
+    border-radius: 15px;
+}
+
+.ceap {
+    position: absolute;
+    width: 50%;
+    text-align: justify;
+    margin-left: 40%;
+    margin-top: 2em;
+    font-size: 2em;
+    font-style: italic;
+
+}
+
+.ingresoaula {
+    text-align: center;
+    width: 50%;
+    margin-top: 9em;
+    margin-left: 40%;
+    font-size: 3em;
+    font-style: italic;
+}
